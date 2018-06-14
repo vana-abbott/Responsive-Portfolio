@@ -1,17 +1,16 @@
 body {
-    width: 960px; 
-    margin: 150px;    
-        background-color: gainsboro; 
-        background-size: auto, cover;
-        background-image:url(../images/intersection.png);
+    /* width: 70%; */
+    background-color: gainsboro; 
+    background-size: auto, cover;
+    background-image:url('images/intersection.png');
     
 }
 header {
     font-size: 30px;
     border-bottom: 3px solid gray;
-    background-color: white; 
-    padding-top: 11px; 
+    background-color: white;
     position: relative;
+    width:100%;
 }
 .header-name {
     color:white;
@@ -28,6 +27,9 @@ header {
 .header-name:hover {
     font-family: Pacifico, cursive;
 }
+.main-body { 
+    margin: 0 15%; 
+}
 a {
     color: gray;
     display: inline;
@@ -36,6 +38,9 @@ a {
     font-size: 24px;
     padding-bottom: 13px;
 }
+#aAbout{
+    padding-right:15px;
+}
 .Aboutme {
     font-size: 28px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -43,39 +48,40 @@ a {
     border-bottom: 5px black;
     padding: 20px 0px 0px 1px;
     background-color: white; 
+    margin-top: 15px;
 }
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
-    padding-bottom: 10px;
     width: 500px;
+}
+.main-content {
+    background-color: ivory;
+    margin-bottom: 15px;
 }
 img {
     float: left;
     margin-right: 15px;
     padding-bottom: 10px;
     padding-right: 10px; 
+    width: 380px; 
+    height: 300px;
 }
 .img-p {
     float: none;
     font-family: Arial, Helvetica, sans-serif; 
     text-align: left;
-    padding-right: 20px; 
-    padding-left: 20px; 
-    background-color: ivory; 
-    padding-bottom: 220px; 
     text-indent: 30px; 
-    line-height: 1.4;
+    line-height: 1.2;
+    padding: 8px; 
+    min-height: 284px; 
 }
-.line {
-    width:930px;
-    height:1px;
-    border-bottom:1px gray solid;
-    padding-left:15px;
 
-}
 footer {
+    position: fixed;
+    width:100%;
+    bottom: 0;
     background-color: ivory; 
     border-top: solid 5px teal; 
     text-align: center; 
@@ -118,26 +124,73 @@ input[type=text], select, textarea {
 @media (max-width: 980px) 
 {
     body {
-        width: 100%;
+        width: auto; 
     }
-
+    .main-body {
+        margin: 0 32% 0 15%;
+    }
+    img {
+        width: 180px; 
+        height: 140px; 
+    }
+    a, header, .Aboutme {
+        font-size: inherit; 
+    }
+    .img-p {
+        min-height: inherit;
+    }
     
+
 }
 
 @media (max-width: 760px) 
 {
     body {
-        width: 100%;
+        width: auto;
     }
-
-    
+    .main-body {
+        margin: 0 3%;
+    }
+    img {
+        width: 40%; 
+        height: 33%;
+        padding: 0;
+    }
+    .img-p {
+        height: 33%;
+    }
 }
 
 @media (max-width: 640px) 
 {
-    body {
-        width: 100%;
+    header {
+        margin: 0;
     }
+    .header-name {
+        width: 100%;
+        display: inherit;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    a {
 
-    
+    }
+    body {
+        width: auto;
+    }
+    .main-body {
+        margin: 0 3%;
+    }
+    img {
+        width: 94%; 
+        height: 33%;
+        padding: 3%;
+    }
+    .img-p {
+        /* height: 33%; */
+        padding: 2%;
+    }
 }
