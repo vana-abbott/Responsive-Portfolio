@@ -139,7 +139,19 @@ input[type=text], select, textarea {
     .img-p {
         min-height: inherit;
     }
-    
+    .links {
+        background-color: white; 
+        position: static;
+        display: inline;
+        padding-left: 30%;
+        width: 75%; 
+        text-align: center;
+
+    }
+    .container2 {
+        width: 90%;
+        margin: 5px; 
+    }
 
 }
 
@@ -158,6 +170,21 @@ input[type=text], select, textarea {
     }
     .img-p {
         height: 33%;
+
+    }
+        .links {
+            background-color: white; 
+            position: static;
+            display: inline;
+            padding-left: 30%;
+            width: 75%; 
+            text-align: center;
+    
+    }
+
+    .container2 {
+        width: 90%;
+        margin: 5px; 
     }
 }
 
@@ -192,5 +219,20 @@ input[type=text], select, textarea {
     .img-p {
         /* height: 33%; */
         padding: 2%;
+        
+    }
+
+    .links {
+        background-color: white; 
+        position: static;
+        display: inline;
+        padding-left: 30%;
+        width: 75%; 
+        text-align: center;
+    }
+
+    .container2 {
+        width: 90%;
+        margin: 5px; 
     }
 }
