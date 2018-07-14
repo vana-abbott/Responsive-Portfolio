@@ -61,11 +61,11 @@ the portfolio you made last week with a mobile-responsive layout.
 
 6. Make the layout match the following screenshots:
 
-   * `index.html`: [980px](Images/980-index.jpg), [768px](Images/768-index.jpg), [640px](Images/640-index.jpg)
+   * `index.html`: [980px](Images-hw/980-index.jpg), [768px](Images-hw/768-index.jpg), [640px](Images-hw/640-index.jpg)
 
-   * `portfolio.html`: [980px](Images/980-portfolio.jpg), [768px](Images/768-portfolio.jpg), [640px](Images/640-portfolio.jpg)
+   * `portfolio.html`: [980px](Images-hw/980-portfolio.jpg), [768px](Images-hw/768-portfolio.jpg), [640px](Images-hw/640-portfolio.jpg)
 
-   * `contact.html`: [980px](Images/980-contact.jpg), [768px](Images/768-contact.jpg), [640px](Images/640-contact.jpg)
+   * `contact.html`: [980px](Images-hw/980-contact.jpg), [768px](Images-hw/768-contact.jpg), [640px](Images-hw/640-contact.jpg)
 
 7. Make the position of the header `static` (the default positioning) when the screen is `640px` wide. The header design takes up a lot of room; you don't want it to stick to the top of a small screen and leave no room for the rest of your site.
 
