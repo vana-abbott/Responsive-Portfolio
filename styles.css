@@ -56,6 +56,14 @@ a {
     display: table;
     width: 500px;
 }
+.row {
+    display: flex;
+    background: #4aaaa5;
+}  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
 .main-content {
     background-color: ivory;
     margin-bottom: 15px;
